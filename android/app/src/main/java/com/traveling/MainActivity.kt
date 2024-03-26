@@ -1,4 +1,4 @@
-package com.traveling
+package com.rajappdev.karnavati.tour
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

@@ -1,4 +1,4 @@
-package com.traveling
+package com.rajappdev.karnavati.tour
 
 import android.app.Application
 import com.facebook.react.PackageList

@@ -74,13 +74,15 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.traveling"
+    namespace "com.rajappdev.karnavati.tour"
     defaultConfig {
-        applicationId "com.traveling"
+        applicationId "com.rajappdev.karnavati.tour"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
+        archivesBaseName = "$applicationId-v$versionCode($versionName)"
+
     }
     signingConfigs {
         debug {
